@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+#logo-principal {
+width: 405px;
+}
+
+#Repuesto {
+    width: 205px;
+    height: 340px;
+    margin: 20px;
+}
+
+
+header {
+    display: flex;
+    padding: 18px;
+    justify-content:space-around;
+    align-items: center;
+    background-color:rgb(39, 140, 255);
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+li {
+    color: white;
+    margin-left: 40px;
+    margin-bottom: auto;
+    transition: all 300ms;
+    padding: 5px;
+}
+
+li:hover {
+    background-color: rgb(59, 177, 231);
+    border-radius: 40px;
+    color: rgb(39, 140, 255);
+}
+
+footer {
+    padding: 10px;
+    background-color: rgb(39, 140, 255);
+    margin-top: 80px;
+}
+
+div {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: 10px;
+}
+
+#redes-sociales {
+    display:flex;
+    flex-direction: column;
+}
+
+#derechos {
+    text-align: center;
+}
+
+#logo-secundario {
+    margin-right: 450px;
+    width: 150px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 370px;
+    border: 5px solid rgb(59, 177, 231);
+    border-radius: 7px;
+    border-style: inset;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+    transition: all 400ms;
+}
+
+article:hover {
+    box-shadow: 0 10px 20px rgb(59, 177, 231);
+    border-color: rgb(39, 140, 255);
+}
+
+h2 {
+    font-size:medium
+}
+
+h1 {
+    padding: 5px;
+    border: 5px solid rgb(59, 177, 231);   
+    border-radius: 20px;
+    border-style:inset;
+    color: rgb(15, 3, 80);
+    font-size: x-large;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+    text-align: center;
+    transition: all 300ms;
+    cursor:default
+}
+
+h1:hover {
+    border-color: rgb(39, 140, 255);
+}
+
+form {
+    display: flex;
+}
+
+input {
+    font-size: 13px;
+    padding: 7px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+button {
+    border: none;
+    padding: 5px;
+    background-color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 17px; 
+}
+
+a {
+    text-decoration: none;
+    color: rgb(15, 3, 80)
+}
+
+#precios {
+    font-size: large;
+    color: rgb(1, 122, 1);
+}
